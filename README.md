@@ -16,6 +16,7 @@ This project implements a Trie data structure as part of the ICS202 (Data Struct
   - `ProjectInterface.java`: Main class with the user interface
   - `Trie.java`: Implementation of the Trie data structure
   - `TrieNode.java`: Class representing a single node in the Trie
+  - `TrieTest.java`: This is just for testing the methods
 - `Dictionary.txt`: A text file containing a list of words for the Trie (in root directory)
 
 ## How to Run
