@@ -12,20 +12,22 @@ This project implements a Trie data structure as part of the ICS202 (Data Struct
 - Get the size of the Trie
 
 ## Project Structure
-- `ProjectInterface.java`: Main class with the user interface
-- `Trie.java`: Implementation of the Trie data structure
-- `TrieNode.java`: Class representing a single node in the Trie
-- `Dictionary.txt`: A text file containing a list of words for the Trie
+- `src/`
+  - `ProjectInterface.java`: Main class with the user interface
+  - `Trie.java`: Implementation of the Trie data structure
+  - `TrieNode.java`: Class representing a single node in the Trie
+- `Dictionary.txt`: A text file containing a list of words for the Trie (in root directory)
 
 ## How to Run
 1. Ensure you have Java installed on your system
-2. Compile the Java files: javac ProjectInterface.java Trie.java TrieNode.java
-3. Run the program: java ProjectInterface
-4. Follow the on-screen prompts to interact with the Trie
+2. Navigate to the project root directory
+3. Compile the Java files: javac src/*.java
+4. Run the program: java -cp src ProjectInterface
+
 
 ## Requirements
 - Java SE Development Kit (JDK) 8 or higher
-- `Dictionary.txt` file in the same directory as the Java files
+- `Dictionary.txt` file in the root directory of the project
 
 ## Usage
 The program presents a menu-driven interface where you can:
